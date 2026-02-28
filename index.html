@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHAHADAT SAHU - PERSONAL INFO</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary: #8b5cf6;
+            --secondary: #6366f1;
+            --text-main: #f8fafc;
+            --text-muted: #cbd5e1;
+            --bg-card: rgba(30, 41, 59, 0.7);
+            --bg-info: rgba(255, 255, 255, 0.05);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            transition: all 0.3s ease;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 420px;
+            width: 100%;
+            background: var(--bg-card);
+            padding: 40px 30px;
+            border-radius: 24px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            text-align: center;
+        }
+
+        .profile-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid transparent;
+            background: linear-gradient(white, white) padding-box, 
+                        linear-gradient(45deg, var(--primary), var(--secondary)) border-box;
+            object-fit: cover;
+            margin-bottom: 15px;
+            box-shadow: 0 10px 25px rgba(139, 92, 246, 0.3);
+        }
+
+        h1 {
+            font-size: 1.6rem;
+            margin: 0;
+            background: linear-gradient(to right, #c4b5fd, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 700;
+            letter-spacing: 1px;
+        }
+
+        .tagline {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-top: 5px;
+            margin-bottom: 30px;
+            font-weight: 400;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+        }
+
+        /* --- Refined Info Box Style --- */
+        .info-card {
+            background: var(--bg-info);
+            padding: 20px;
+            border-radius: 16px;
+            text-align: left;
+            border-left: 4px solid var(--primary);
+            margin-bottom: 30px;
+            border-top: 1px solid rgba(255,255,255,0.03);
+            border-right: 1px solid rgba(255,255,255,0.03);
+            border-bottom: 1px solid rgba(255,255,255,0.03);
+        }
+
+        .info-row {
+            display: flex;
+            align-items: center;
+            padding: 8px 0;
+            font-size: 0.9rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .info-row:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .info-row:first-child {
+            padding-top: 0;
+        }
+
+        .info-row i {
+            width: 30px;
+            color: var(--secondary);
+            font-size: 1.1rem;
+        }
+
+        .info-label {
+            font-weight: 500;
+            color: #fff;
+            width: 90px;
+        }
+
+        .info-value {
+            color: var(--text-muted);
+            font-weight: 400;
+            flex: 1;
+            text-align: right;
+        }
+
+        /* --- Modern Contact Buttons --- */
+        .contact-box {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .contact-box a {
+            padding: 12px;
+            background: rgba(255, 255, 255, 0.05);
+            color: #fff;
+            border-radius: 12px;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.85rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            letter-spacing: 0.5px;
+        }
+
+        .contact-box a i {
+            font-size: 1.1rem;
+        }
+
+        .contact-box a:hover {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-color: transparent;
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3);
+            color: #fff;
+        }
+
+        footer {
+            margin-top: 30px;
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="https://i.imgur.com/ABQqp1b.jpeg" class="profile-photo" alt="Shahadat Sahu">
+        
+        <h1>SHAHADAT SAHU</h1>
+        <p class="tagline">Student • Chatbot Developer</p>
+
+        <div class="info-card">
+            <div class="info-row">
+                <i class="fas fa-id-badge"></i>
+                <span class="info-label">Name</span>
+                <span class="info-value">SHAHADAT ISLAM</span>
+            </div>
+            <div class="info-row">
+                <i class="fas fa-graduation-cap"></i>
+                <span class="info-label">Education</span>
+                <span class="info-value">HSC</span>
+            </div>
+            <div class="info-row">
+                <i class="fas fa-user"></i>
+                <span class="info-label">Gender</span>
+                <span class="info-value">Male</span>
+            </div>
+            <div class="info-row">
+                <i class="fas fa-heart"></i>
+                <span class="info-label">Relation</span>
+                <span class="info-value">Single</span>
+            </div>
+            <div class="info-row">
+                <i class="fas fa-calendar-alt"></i>
+                <span class="info-label">Age</span>
+                <span class="info-value">18+</span>
+            </div>
+            <div class="info-row">
+                <i class="fas fa-mosque"></i>
+                <span class="info-label">Religion</span>
+                <span class="info-value">Islam</span>
+            </div>
+            <div class="info-row">
+                <i class="fas fa-map-marker-alt"></i>
+                <span class="info-label">Address</span>
+                <span class="info-value">Khagrachhari, BD</span>
+            </div>
+        </div>
+
+        <div class="contact-box">
+            <a href="https://wa.me/+8801882333052" target="_blank">
+                <i class="fab fa-whatsapp"></i> WhatsApp
+            </a>
+            <a href="https://facebook.com/100044713412032" target="_blank">
+                <i class="fab fa-facebook-f"></i> Facebook
+            </a>
+            <a href="https://m.me/100044713412032" target="_blank">
+                <i class="fab fa-facebook-messenger"></i> Messenger
+            </a>
+            <a href="https://github.com/shahadat-sahu" target="_blank">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+        </div>
+
+        <footer>
+            © <script>document.write(new Date().getFullYear())</script> SHAHADAT SAHU
+        </footer>
+    </div>
+
+</body>
+</html>

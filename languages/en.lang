@@ -1,0 +1,103 @@
+#If you want to move down the line, please use \n. e.g: tina\nsahu.    
+#After changed, you have to restart the bot to use.      
+#Put the # character at the beginning of each sentence if you don't want the code to run those lines.     
+#Thanks to https://www.facebook.com/duong.than.net for translate to English!    
+    
+# Sahu.js  
+sahu.newVersionDetected=You are using version %1, the latest version is %2.  
+sahu.errorFormat=Malformed module.  
+sahu.nameExist=Module name already exists.  
+sahu.notFoundLanguage=Module %1 does not support your language.  
+sahu.notFoundPackage=Cannot find package %1 for module %2, installing...  
+sahu.cantInstallPackage=Cannot install package %1 for module %2, error: %3  
+sahu.loadedPackage=All required packages installed successfully for module %1.  
+sahu.loadedConfig=Configuration installed successfully for module %1.  
+sahu.cantLoadConfig=Cannot load configuration for module %1, error: %2  
+sahu.cantOnload=Cannot run setup for module %1, error: %2  
+sahu.successLoadModule=Module %1 loaded successfully.  
+sahu.failLoadModule=Cannot load module %1, error: %2  
+sahu.finishLoadModule=Successfully loaded %1 command modules and %2 event modules.  
+sahu.foundPathAppstate=Appstate loaded successfully.  
+sahu.notFoundPathAppstate=Error: Cannot find appstate file. The file may be corrupted.  
+sahu.checkListGban=Checking global ban list...  
+sahu.banDevice=Your device is banned from using Sahu Islamic Bot. Contact https://fb.me/100044713412032 or enter your unban key.  
+sahu.keyNotSameFormat=Invalid key format. The key must contain 6 digits.  
+sahu.codeInputExpired=The code you entered is incorrect or expired.  
+sahu.unbanDeviceSuccess=Your device has been unbanned. Restart the bot to continue.  
+sahu.userBanned=You were banned from Sahu Islamic Bot on %1 for the reason: %2. Contact https://fb.me/100044713412032 for more information.  
+sahu.finishCheckListGban=Completed global ban list check.  
+sahu.handleListenError=handleListen encountered an unexpected error: %1  
+sahu.warningSourceCode=Source code structure has been modified. Stopping system.  
+sahu.refreshListen=Listener has been refreshed.  
+sahu.successConnectDatabase=Database connected successfully.  
+sahu.failConnectDatabase=Failed to connect to database, error: %1  
+  
+# includes/listen.js  
+listen.startLoadEnvironment=Loading environment variables...  
+listen.loadedEnvironmentThread=Thread environment variables loaded successfully.  
+listen.loadedEnvironmentUser=User environment variables loaded successfully.  
+listen.successLoadEnvironment=Environment variables loaded successfully.  
+listen.failLoadEnvironment=Cannot load environment variables, error: %1  
+  
+# currencies.js  
+currencies.needObjectOrArray=Input must be an array or object.  
+currencies.needObject=Input must be an object.  
+currencies.needNumber=Input must be a number.  
+  
+# threads.js  
+threads.needObjectOrArray=Input must be an array or object.  
+threads.needObject=Input must be an object.  
+  
+# users.js  
+users.needObjectOrArray=Input must be an array or object.  
+users.needObject=Input must be an object.  
+  
+# handleCommand.js  
+handleCommand.userBanned=You are banned. Contact admin: https://m.me/100044713412032  
+handleCommand.threadBanned=This group is banned. Contact admin: https://m.me/100044713412032  
+handleCommand.commandNotExist=The command you entered does not exist.\nDid you mean: %1 ?  
+handleCommand.commandThreadBanned=This thread cannot use the command "%1".  
+handleCommand.commandUserBanned=You cannot use the command "%1".  
+handleCommand.threadNotAllowNSFW=⛔ You do not have permission. "%1"\nThis command can only be used by bot admins..  
+handleCommand.cantGetInfoThread=Cannot retrieve thread information, error: %1  
+handleCommand.permssionNotEnough=You do not have permission to use this command "%1".  
+handleCommand.cantSetMessageReaction=Error while setting message reaction: %1  
+handleCommand.executeCommand=[ %1 ] Command used: %2 by user: %3 in thread: %4 | Arguments: %5 | Time: %6ms  
+handleCommand.commandError=Unexpected error while executing command %1, error: %2  
+  
+# handleCommandEvent.js  
+handleCommandEvent.moduleError=Unexpected error while using command %1, error: %2  
+  
+# handleCreateDatabase.js  
+handleCreateDatabase.newThread=New thread created: %1  
+handleCreateDatabase.newUser=New user created: %1  
+  
+# handleEvent.js  
+handleEvent.executeEvent=[ %1 ] Event executed: %2 in thread: %3 | Time: %4ms  
+handleEvent.eventError=Error while executing event %1, error: %2  
+  
+# handleReaction.js  
+handleReaction.missingValue=Missing required value to respond.  
+handleReaction.executeError=Error while responding, error: %1  
+  
+# handleReply.js  
+handleReply.missingValue=Missing required value to respond.  
+handleReply.executeError=Error while responding, error: %1  
+  
+# handleSchedule.js  
+handleSchedule.exectuteError=Error while scheduling module %1, error: %2  
+  
+# utils  
+utils.throwError=If this command is not working, try another command. Use %1help %2 for more information.  
+  
+# updater.js  
+updater.latestVersion=You are using the latest version.  
+updater.cantFindVersion=Invalid version (%1). Check your package.json file.  
+updater.newVersions=%1 new versions available. Updating...  
+updater.updateSuccess=Update completed successfully%1  
+updater.configChanged=%1 has been updated. Please review your configuration file.  
+updater.installingPackages=Installing bot dependencies...  
+updater.installSuccess=Dependencies installed successfully. Restart the bot to apply changes.  
+updater.backupSuccess=Backup created successfully. Files saved in folder: %1  
+updater.restartToApply=Restart the bot to apply the new version.  
+updater.skipFile=New version of file %1 found, but skipped due to comment %2.  

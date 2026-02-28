@@ -1,0 +1,82 @@
+{
+    "version": "1.0.0",
+    "language": "en",
+    "keyActive": "",
+    "EMAIL": "",
+    "PASSWORD": "",
+    "OTPKEY": "",
+    "selfListen": false,
+    "DeveloperMode": false,
+    "autoCreateDB": true,
+    "allowInbox": true,
+    "autoClean": true,
+    "adminOnly": false,
+    "encryptSt": false,
+    "removeSt": false,
+    "NOTIFICATION": true,
+    "notiGroup": true,
+    "BOTNAME": "𝗦𝗔𝗛𝗨 𝗜𝗦𝗟𝗔𝗠𝗜𝗖 𝗕𝗢𝗧",
+    "PREFIX": "/",
+    "reactUnsend": [
+        "😡",
+        "🤧",
+        "😤",
+        "😠"
+    ],
+    "ADMINBOT": [
+        "100044713412032",
+        "100047211079054",
+        "61587787857742"
+    ],
+    "NDH": [
+        "100044713412032"
+    ],
+    "AuthorName": "SHAHADAT SAHU",
+    "AuthorNickName": "সাহু",
+    "AuthorBotName": "SAHU ISLAMIC BOT",
+    "AuthorGender": "Male",
+    "AuthorAge": "18+",
+    "AuthorReligion": "Islam",
+    "AuthorRelationalStatus": "Single",
+    "AuthorLocation": "Bangladesh",
+    "AuthorPhoto": "https://i.imgur.com/Zhs0omh.jpeg",
+    "AuthorImgur": "https://i.imgur.com/zqsuJnX.jpeg",
+    "AuthorGithub": "https://github.com/shahadat-sahu",
+    "AuthorFacebook": "https://fb.com/100044713412032",
+    "AuthorMessenger": "https://m.me/100044713412032",
+    "AuthorWhatsApp": "https://wa.me/8801882333052",
+    "AuthorTelegram": "https://t.me/yoursahu",
+    "APPSTATEPATH": "cokiState.json",
+    "FCAOption": {
+        "forceLogin": true,
+        "listenEvents": true,
+        "pauseLog": true,
+        "logLevel": "error",
+        "selfListen": false,
+        "userAgent": "Mozilla/5.0 (Android 16; SM-A356E) Chrome/145.0 Mobile Safari/537.36"
+    },
+    "DATABASE": {
+        "sqlite": {
+            "storage": "data.sqlite"
+        }
+    },
+    "menu": {
+        "autoUnsend": true,
+        "delayUnsend": 60
+    },
+    "help": {
+        "autoUnsend": true,
+        "delayUnsend": 120
+    },
+    "adminUpdate": {
+        "autoUnsend": true,
+        "sendNoti": true,
+        "timeToUnsend": 30
+    },
+    "log": {
+        "enable": true
+    },
+    "weather": {
+        "OPEN_WEATHER": "b7f1db5959a1f5b2a079912b03f0cd96"
+    }
+}

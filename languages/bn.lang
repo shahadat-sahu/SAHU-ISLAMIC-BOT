@@ -1,0 +1,103 @@
+# যদি আপনি লাইন ব্রেক দিতে চান, তাহলে \n ব্যবহার করুন। যেমন: tina\nsahu.
+# পরিবর্তন করার পর, বটটি রিস্টার্ট করতে হবে।
+# কোন লাইন চালাতে না চাইলে শুরুতে # ব্যবহার করুন।
+# অনুবাদের জন্য ধন্যবাদ: https://www.facebook.com/duong.than.net 
+
+# Sahu.js
+sahu.newVersionDetected=আপনি %1 ভার্সন ব্যবহার করছেন, সর্বশেষ ভার্সন হলো %2।
+sahu.errorFormat=মডিউলের ফরম্যাট সঠিক নয়।
+sahu.nameExist=এই নামে একটি মডিউল ইতিমধ্যেই রয়েছে।
+sahu.notFoundLanguage=মডিউল %1 আপনার ভাষা সাপোর্ট করে না।
+sahu.notFoundPackage=মডিউল %2 এর জন্য প্যাকেজ %1 পাওয়া যায়নি, ইনস্টল করা হচ্ছে...
+sahu.cantInstallPackage=মডিউল %2 এর জন্য প্যাকেজ %1 ইনস্টল করা যায়নি, ত্রুটি: %3
+sahu.loadedPackage=মডিউল %1 এর সব প্রয়োজনীয় প্যাকেজ সফলভাবে ইনস্টল হয়েছে।
+sahu.loadedConfig=মডিউল %1 এর কনফিগারেশন সফলভাবে ইন্সটল হয়েছে।
+sahu.cantLoadConfig=মডিউল %1 এর কনফিগারেশন লোড করা যায়নি, ত্রুটি: %2
+sahu.cantOnload=মডিউল %1 এর সেটআপ চালানো যায়নি, ত্রুটি: %2
+sahu.successLoadModule=মডিউল %1 সফলভাবে লোড হয়েছে।
+sahu.failLoadModule=মডিউল %1 লোড করা যায়নি, ত্রুটি: %2
+sahu.finishLoadModule=%1 টি কমান্ড মডিউল এবং %2 টি ইভেন্ট মডিউল সফলভাবে লোড হয়েছে।
+sahu.foundPathAppstate=Appstate সফলভাবে লোড হয়েছে।
+sahu.notFoundPathAppstate=ত্রুটি: Appstate ফাইল পাওয়া যাচ্ছে না। ফাইলটি নষ্ট হতে পারে।
+sahu.checkListGban=গ্লোবাল ব্যান লিস্ট চেক করা হচ্ছে...
+sahu.banDevice=আপনার ডিভাইস Sahu Islamic Bot ব্যবহার থেকে ব্যান করা হয়েছে। যোগাযোগ করুন: https://fb.me/100044713412032 অথবা আপনার আনব্যান কী প্রবেশ করান।
+sahu.keyNotSameFormat=ভুল ফরম্যাট। কী ৬ ডিজিটের হতে হবে।
+sahu.codeInputExpired=আপনার কোডটি ভুল বা মেয়াদোত্তীর্ণ।
+sahu.unbanDeviceSuccess=আপনার ডিভাইস আনব্যান করা হয়েছে। চালিয়ে যেতে বটটি রিস্টার্ট করুন।
+sahu.userBanned=আপনাকে %1 তারিখে ব্যান করা হয়েছে। কারণ: %2। বিস্তারিত জানতে যোগাযোগ করুন: https://fb.me/100044713412032
+sahu.finishCheckListGban=গ্লোবাল ব্যান লিস্ট চেক সম্পন্ন।
+sahu.handleListenError=handleListen একটি অপ্রত্যাশিত ত্রুটি পেয়েছে: %1
+sahu.warningSourceCode=সোর্স কোডের কাঠামো পরিবর্তন সনাক্ত হয়েছে, সিস্টেম বন্ধ করা হচ্ছে।
+sahu.refreshListen=Listener রিফ্রেশ করা হয়েছে।
+sahu.successConnectDatabase=ডাটাবেইজ সফলভাবে কানেক্ট হয়েছে।
+sahu.failConnectDatabase=ডাটাবেইজ কানেক্ট করতে ব্যর্থ, ত্রুটি: %1
+
+# includes/listen.js
+listen.startLoadEnvironment=এনভায়রনমেন্ট ভ্যারিয়েবল লোড করা শুরু হয়েছে...
+listen.loadedEnvironmentThread=থ্রেড এনভায়রনমেন্ট ভ্যারিয়েবল সফলভাবে লোড হয়েছে।
+listen.loadedEnvironmentUser=ইউজার এনভায়রনমেন্ট ভ্যারিয়েবল সফলভাবে লোড হয়েছে।
+listen.successLoadEnvironment=এনভায়রনমেন্ট ভ্যারিয়েবল সফলভাবে লোড হয়েছে।
+listen.failLoadEnvironment=এনভায়রনমেন্ট ভ্যারিয়েবল লোড করা যায়নি, ত্রুটি: %1
+
+# currencies.js
+currencies.needObjectOrArray=ইনপুট অবশ্যই একটি array বা object হতে হবে।
+currencies.needObject=ইনপুট অবশ্যই একটি object হতে হবে।
+currencies.needNumber=ইনপুট অবশ্যই একটি সংখ্যা হতে হবে।
+
+# threads.js
+threads.needObjectOrArray=ইনপুট অবশ্যই একটি array বা object হতে হবে।
+threads.needObject=ইনপুট অবশ্যই একটি object হতে হবে।
+
+# users.js
+users.needObjectOrArray=ইনপুট অবশ্যই একটি array বা object হতে হবে।
+users.needObject=ইনপুট অবশ্যই একটি object হতে হবে।
+
+# handleCommand.js
+handleCommand.userBanned=আপনি ব্যানড। অ্যাডমিনের সাথে যোগাযোগ করুন: https://m.me/100044713412032
+handleCommand.threadBanned=এই গ্রুপটি ব্যানড। অ্যাডমিনের সাথে যোগাযোগ করুন: https://m.me/100044713412032
+handleCommand.commandNotExist=আপনি যে কমান্ডটি দিয়েছেন তা বিদ্যমান নয়।\nআপনি কি %1 বলতে চেয়েছিলেন?
+handleCommand.commandThreadBanned=এই থ্রেড "%1" কমান্ড ব্যবহার করতে পারবে না।
+handleCommand.commandUserBanned=আপনি "%1" কমান্ড ব্যবহার করতে পারবেন না।
+handleCommand.threadNotAllowNSFW=⛔ আপনার অনুমতি নেই "%1" কমান্ড ব্যবহারের।\nএই কমান্ড শুধুমাত্র বট অ্যাডমিনরা ব্যবহার করতে পারবেন।
+handleCommand.cantGetInfoThread=থ্রেড সম্পর্কিত তথ্য আনা যায়নি, ত্রুটি: %1
+handleCommand.permssionNotEnough=আপনার "%1" কমান্ড ব্যবহারের অনুমতি নেই।
+handleCommand.cantSetMessageReaction=রিঅ্যাকশন সেট করতে ত্রুটি হয়েছে: %1
+handleCommand.executeCommand=[ %1 ] কমান্ড ব্যবহার করেছেন: %2 | ব্যবহারকারী: %3 | থ্রেড: %4 | আর্গুমেন্ট: %5 | সময়: %6ms
+handleCommand.commandError=কমান্ড %1 ব্যবহার করতে গিয়ে অপ্রত্যাশিত ত্রুটি: %2
+
+# handleCommandEvent.js
+handleCommandEvent.moduleError=কমান্ড %1 চালানোর সময় ত্রুটি: %2
+
+# handleCreateDatabase.js
+handleCreateDatabase.newThread=নতুন থ্রেড তৈরি হয়েছে: %1
+handleCreateDatabase.newUser=নতুন ব্যবহারকারী তৈরি হয়েছে: %1
+
+# handleEvent.js
+handleEvent.executeEvent=[ %1 ] ইভেন্ট চালানো হয়েছে: %2 | থ্রেড: %3 | সময়: %4ms
+handleEvent.eventError=ইভেন্ট %1 চালানোর সময় ত্রুটি: %2
+
+# handleReaction.js
+handleReaction.missingValue=উত্তর দেওয়ার জন্য প্রয়োজনীয় মান নেই।
+handleReaction.executeError=উত্তর দেওয়ার সময় ত্রুটি হয়েছে: %1
+
+# handleReply.js
+handleReply.missingValue=উত্তর দেওয়ার জন্য প্রয়োজনীয় মান নেই।
+handleReply.executeError=উত্তর দেওয়ার সময় ত্রুটি হয়েছে: %1
+
+# handleSchedule.js
+handleSchedule.exectuteError=মডিউল %1 শিডিউল করতে ত্রুটি: %2
+
+# utils
+utils.throwError=এই কমান্ড কাজ না করলে, অন্য কমান্ড চেষ্টা করুন। আরও তথ্যের জন্য %1help %2 ব্যবহার করুন।
+
+# updater.js
+updater.latestVersion=আপনি সর্বশেষ ভার্সন ব্যবহার করছেন।
+updater.cantFindVersion=অবৈধ ভার্সন (%1)। আপনার package.json ফাইল চেক করুন।
+updater.newVersions=%1 টি নতুন ভার্সন পাওয়া গেছে। আপডেট করা হচ্ছে...
+updater.updateSuccess=আপডেট সফলভাবে সম্পন্ন%1
+updater.configChanged=%1 আপডেট করা হয়েছে। দয়া করে কনফিগ ফাইল চেক করুন।
+updater.installingPackages=বটের ডিপেন্ডেন্সি ইনস্টল করা হচ্ছে...
+updater.installSuccess=ডিপেন্ডেন্সি ইনস্টল সম্পন্ন। নতুন ভার্সন ব্যবহার করতে বটটি রিস্টার্ট করুন।
+updater.backupSuccess=ব্যাকআপ সফল হয়েছে। ফাইলগুলো সংরক্ষিত হয়েছে: %1
+updater.restartToApply=নতুন ভার্সন প্রয়োগ করতে বট রিস্টার্ট করুন।
+updater.skipFile=ফাইল %1 এর নতুন ভার্সন পাওয়া গেছে, কিন্তু মন্তব্য %2 এর কারণে স্কিপ করা হয়েছে।
