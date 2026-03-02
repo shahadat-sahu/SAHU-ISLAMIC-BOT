@@ -15,7 +15,7 @@
     "removeSt": false,
     "NOTIFICATION": true,
     "notiGroup": true,
-    "BOTNAME": "𝗦𝗔𝗛𝗨 𝗜𝗦𝗟𝗔𝗠𝗜𝗖 𝗕𝗢𝗧",
+    "BOTNAME": "JISAN ISLAMIC BOT",
     "PREFIX": "/",
     "reactUnsend": [
         "😡",
@@ -24,16 +24,16 @@
         "😠"
     ],
     "ADMINBOT": [
-        "100044713412032",
+        "100091672268162",
         "100047211079054",
         "61587787857742"
     ],
     "NDH": [
         "100044713412032"
     ],
-    "AuthorName": "SHAHADAT SAHU",
-    "AuthorNickName": "সাহু",
-    "AuthorBotName": "SAHU ISLAMIC BOT",
+    "AuthorName": "RJ JISAN",
+    "AuthorNickName": "জিসান",
+    "AuthorBotName": "JISAN ISLAMIC BOT",
     "AuthorGender": "Male",
     "AuthorAge": "18+",
     "AuthorReligion": "Islam",
